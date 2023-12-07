@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/reset.css">
+
+
+
+</head>
+<body>
+
+	<div class="box">
+		<h1>Fjellhamar cup</h1>
+		<p class="velkommen">Velkommen til fjellhammer cup 2024. Starter 30. mai - 02. juni</p>
+		<p class="info">Lyst å være med på den mest intime cupen på denne størrelsen? 14 spilleflater innenfor fem minutter! Internasjonal turnering med lag fra Norge, Danmark, Island og Færøyene. 20 minutter fra Oslo Sentrum og 20 minutter fra Oslo Lufthavn. På vei mot å bli verdens største innendørs håndballturnering. Velkommen til Lørenskog (rett utenfor Oslo) og Fjellhammer Cup 2024</p>
+
+		<div class="logo">
+			<img src="pictures/Logo.jpg" alt="">
+		</div>
+	</div>
+
+	<div class="main-container">
+		<button class="button_nylag">Påmelding av lag</button>
+		<button class="button_info">Viktig informasjon om cuppen</button>
+	</div>
+	
+
+	<div class="slideshow">
+		<div class="slideshow__slides">
+			<figure class="slideshow__slide slideshow__slide--visible">
+				<img class="slideshow__img" src="pictures/arena.jpg" alt="">
+				<figcaption class="slideshow__caption"></figcaption>
+			</figure>
+
+			<figure class="slideshow__slide">
+				<img class="slideshow__img" src="pictures/hallen.jpg.webp" alt="">
+				<figcaption class="slideshow__caption"></figcaption>
+			</figure>
+
+			<figure class="slideshow__slide">
+				<img class="slideshow__img" src="pictures/lørenskog.jpg" alt="">
+				<figcaption class="slideshow__caption"></figcaption>
+			</figure>
+		</div>
+		<div class="slideshow__controls">
+			<button class="slideshow__control-button" data-direction="previous">Previous</button>
+			<button class="slideshow__control-button" data-direction="next">Next</button>
+		</div>
+		
+		<div class="slideshow__dots">
+			<button class="slideshow__dot" data-index="0"></button>
+			<button class="slideshow__dot" data-index="1"></button>
+			<button class="slideshow__dot" data-index="2"></button>
+		</div>
+
+		<div class="slideshow__counter">
+			1 of 3
+		</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>

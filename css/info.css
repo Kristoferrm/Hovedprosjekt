@@ -1,0 +1,29 @@
+.box {
+	width: 1370px;
+	height: 100px;
+	background-color: rgb(17, 218, 17);
+	border: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	top: 0;
+}
+
+.logo {
+	text-align: center;
+}
+
+.datoer {
+	margin-left: 20px;
+}
+
+.deltakerkort {
+	margin-left: 20px;
+}
+
+.priser {
+	margin-left: 20px;
+}
+
+.overnatting {
+	margin-left: 20px;
+}
